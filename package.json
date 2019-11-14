@@ -1,0 +1,22 @@
+{
+  "name": "node_shop4",
+  "version": "1.0.0",
+  "description": "node_shop4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodix01/node_shop4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prodix01/node_shop4/issues"
+  },
+  "homepage": "https://github.com/prodix01/node_shop4#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

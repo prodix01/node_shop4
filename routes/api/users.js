@@ -10,8 +10,15 @@ router.get("/", (req, res) => {
 
 //내 정보 등록 post
 router.post("/", (req, res) => {
+
+    const user = {
+        email : req.body.email,
+        password : req.body.password
+    };
+
     res.json({
-        msg : "내 정보를 등록합니다."
+        msg : "내 정보를 등록합니다.",
+        userinfo : user
     })
 });
 

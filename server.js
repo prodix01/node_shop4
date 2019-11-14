@@ -3,8 +3,15 @@ const app = express();
 
 const port =  1234;
 
+const routeUsers = require("./routes/api/users");
+const routeProducts = require("./routes/api/products");
+const routeOrders = require("./routes/api/orders");
+
 app.listen(port, console.log("서버를 시작합니다."));
 
+app.use("/users", routeUsers);
+app.use("/products", routeProducts);
+app.use("/orders", routeOrders);
 
 
 app.use((req, res) => {
